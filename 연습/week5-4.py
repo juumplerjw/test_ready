@@ -3,4 +3,4 @@ for num in range(2, 101):
         if num % i == 0:
             break
     else:
-        print(num)
+        print(num, end=" ")

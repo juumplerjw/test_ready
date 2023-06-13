@@ -1,8 +1,6 @@
-max_num = None
+numbers = input().split()
+numbers = list(map(int, numbers))
 
-for i in range(5):
-    num = int(input("숫자를 입력하세요: "))
-    if max_num is None or num > max_num:
-        max_num = num
+max_number = max(numbers)
+print(max_number)
 
-print(max_num)

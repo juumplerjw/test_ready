@@ -1,6 +1,7 @@
-num = float(input("숫자를 입력하세요: "))
+num = float(input())
 
 if num < 0:
-    print(0)
+    print("0")
 else:
-    print(num)
+    print(f"{num:.1f}")
+    
